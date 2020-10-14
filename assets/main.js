@@ -11,6 +11,9 @@ for (var i = 0; i < mailList.length; i++) {
     if ( userMail == mailList[i] ) {
         x = 1;
     }
+    else {
+        x = 0;
+    }
 }
 
 if (x = 1) {
